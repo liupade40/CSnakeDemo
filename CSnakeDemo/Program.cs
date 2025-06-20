@@ -9,7 +9,10 @@ namespace CSnakeDemo
     {
         static void Main(string[] args)
         {
+            //出现一下出错的时候需要修改face_recognition_models加载模型的源码pkg_resources这个模块已经被弃用了
+            //Please install `face_recognition_models` with this command before using `face_recognition`:
 
+            //pip install git + https://github.com/ageitgey/face_recognition_models
             var builder = Host.CreateApplicationBuilder(args);
             var home = Path.Join(Environment.CurrentDirectory, ""); /* Path to your Python modules */
             builder.Services

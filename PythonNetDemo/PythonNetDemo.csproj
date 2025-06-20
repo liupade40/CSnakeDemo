@@ -8,24 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="face.py" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <AdditionalFiles Include="face.py" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="CSnakes.Runtime" Version="1.0.35" />
+    <PackageReference Include="pythonnet" Version="3.0.5" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="dlib-19.24.99-cp312-cp312-win_amd64.whl">
+    <None Update="python\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="python\face.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="python\" />
   </ItemGroup>
 
 </Project>

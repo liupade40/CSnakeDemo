@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSnakeDemo", "CSnakeDemo\CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePythonDependency", "ExamplePythonDependency\ExamplePythonDependency.csproj", "{F7256C0E-16B5-4943-9B83-4C332C281589}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonNetDemo", "PythonNetDemo\PythonNetDemo.csproj", "{51C93BE8-1CB9-464F-AF10-450D41D55804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F7256C0E-16B5-4943-9B83-4C332C281589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7256C0E-16B5-4943-9B83-4C332C281589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7256C0E-16B5-4943-9B83-4C332C281589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C93BE8-1CB9-464F-AF10-450D41D55804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C93BE8-1CB9-464F-AF10-450D41D55804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C93BE8-1CB9-464F-AF10-450D41D55804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C93BE8-1CB9-464F-AF10-450D41D55804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
